@@ -1,0 +1,238 @@
+body{
+background-image: url(img/2.jpg);
+background-repeat: no-repeat;
+background-color: black;
+background-size: contain;	
+font-family: Arial;
+}
+
+header{
+text-align: center;
+}
+
+#logo:hover{
+transform: scale(1.1);
+}
+
+nav{    
+font-size: 20px;
+border-radius: 10px;
+background-color: #222526;
+padding:1px;
+opacity: 0.6;
+margin-right: 18%; 
+margin-left: 18%;
+}
+
+nav a:link { 
+color: white; 
+}
+
+nav a:visited { 
+color: white; 
+}
+
+nav a:hover {
+color: black;
+}
+
+main {
+display: inline-flex;
+margin-left: 18%;
+margin-right: 18%;
+background-color: white;
+opacity: 0.7;     
+}
+
+main section{	
+margin-left: 1%;
+background-color: white;   
+}
+
+main a:visited{
+color: black;
+text-decoration: none; 
+}
+
+main a:link { 
+color: black;
+text-decoration: none;  
+}
+ 
+aside{
+min-width: 180px;
+}
+
+.aside-item{
+font-family: "algerian";
+border: 1px solid black;	    
+background-color: #1d4c4a;
+color:white;
+opacity: 0.7;
+padding:15px;
+}
+
+.aside-item:hover{
+background-color: #273d38;
+opacity: 0.7;
+}
+
+.asideb-item{
+border: 1px solid black;  
+background-color: #4a7271;
+color:white; 	
+opacity: 0.7;
+padding:15px;	
+}
+
+.asideb-item:hover{
+background-color:#273d38;	
+opacity: 0.7;
+}
+
+section{
+margin-bottom: 60px;
+
+
+}
+section article figure, section article figure img{
+width: 100%;
+margin-left: 0%;
+margin-right: 0%;
+}
+
+section article:after{
+display: block;
+content: "";
+clear: both;  
+}
+section h4 p{
+	margin-left: 1000px; 
+}
+article{
+margin-left: 2%;
+margin-right: 2%;	
+background-image:url(img/5.jpg); 
+background-color: #7d7487;
+}
+
+article p{
+text-align: justify;
+padding: 5px;
+}
+
+article .img1, article h2 {
+text-align: center;
+}
+ 
+embed, iframe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.video{
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+border:1px solid #ccc;	
+}
+.video iframe, .video object, .video embed{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;	
+}
+
+footer{
+font-size:15px;
+margin-top: 5px;
+text-align: center;
+color:pink;
+}
+
+@media screen and (max-width: 700px) and (min-width: 501px){
+	nav{
+	margin-left: 0%;
+	margin-right: 0%;			
+	}
+	main {	
+		margin-left: 0;
+     width:100%;    	
+	}
+	section {
+		width: 100%;
+	}
+	section article figure, section article figure img{
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	}	
+   
+}
+
+@media screen and (max-width: 500px) {
+    #logo{
+		width: 100%;
+	}
+	main{
+		display:block; 
+    	margin-left: 0%;
+    	margin-right: 0%;		
+	}
+
+	nav{
+   		margin-left: 0%;
+   		margin-right: 0%;		
+	}
+	nav ul {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 0%;
+    			
+	}
+	section article figure, section article figure img{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+ 
+	embed, iframe {
+  	 	width: 100%;
+ 	 	height: 100%;
+	}
+}	
+   
+ section a{
+ 	text-decoration: color;
+ }   
+    
+
+section h4 p{
+	margin-left: 270px;
+}   
+
+
+	
+/*Стили для галлереи*/
+.gallery img{
+	margin: 5px;
+	border: 3px solid #baace5;
+}
+a.photo:hover img{
+	border: 3px solid #30225b;
+}
+	
+/*Стиль для формы обратной связи*/
+/*input  {
+  padding: .7em 1.5em;  отступ от текста 
+  outline: none;  убирать контур в Mozilla 
+} 
+input:hover { background: skyblue; }  при наведении курсора мышки 
+input:active { background: skyblue; }  при нажатии */
+}
+	
+	
